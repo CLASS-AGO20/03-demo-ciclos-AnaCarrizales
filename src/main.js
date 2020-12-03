@@ -72,7 +72,7 @@ export default class App {
     sumarParesDo()
     {
         let i = 1;
-        suma = 0;
+        let suma = 0;
         do
         {
             if(i % 2 == 0)
@@ -82,6 +82,7 @@ export default class App {
             i ++;
         }
         while(i<=20);
+        return suma;
     }
 }
 
@@ -99,3 +100,6 @@ console.log(app.sumarParesWhile());//Resultado debe ser 110
 console.log("Probando contarImparesWhile()")
 console.log(app.contarImparesWhile(3,25));//Resultado debe ser 12
 console.log(app.contarImparesWhile(25,3));//Resultado debe ser 12
+
+console.log("Probando SumarParesDo()")
+console.log(app.sumarParesDo());//Resultado debe ser 110s
