@@ -69,6 +69,20 @@ export default class App {
         }
         return impares;
     }
+    sumarParesDo()
+    {
+        let i = 1;
+        suma = 0;
+        do
+        {
+            if(i % 2 == 0)
+            {
+                suma = suma + i;
+            }
+            i ++;
+        }
+        while(i<=20);
+    }
 }
 
 let app = new App();
