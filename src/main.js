@@ -31,3 +31,4 @@ export default class App {
 
 let app = new App();
 console.log(app.sumarParesFor());
+console.log(app.contarImparesFor(5,20));
