@@ -34,6 +34,20 @@ export default class App {
         }
         return impares;
     }
+    sumarParesWhile()
+    {
+        let i = 1;
+        let suma = 0;
+        while(i<=20)
+        {
+            if(i % 2 == 0)
+            {
+                suma = suma + i;
+            }
+            i++;
+        }
+        return suma;
+    }
 }
 
 let app = new App();
