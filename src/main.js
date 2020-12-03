@@ -51,7 +51,9 @@ export default class App {
 }
 
 let app = new App();
-console.log(app.sumarParesFor());
+console.log(app.sumarParesFor());//Resultado debe ser 110
 
 console.log(app.contarImparesFor(5,20));//Resultado debe ser 8
 console.log(app.contarImparesFor(20,5));//Resultado debe ser 8
+
+console.log(app.sumarParesWhile());//Resultado debe ser 110
