@@ -51,14 +51,14 @@ export default class App {
     contarImparesWhile(inicio, fin)
     {
         let impares = 0;
-        let i = inicio;
         if(inicio > fin)
         {
             let temporal;
             temporal = inicio;
-            inici = fin;
+            inicio = fin;
             fin = temporal;
         }
+        let i = inicio;
         while (i<=fin)
         {
             if(i % 2 != 0)
@@ -67,13 +67,21 @@ export default class App {
             }
             i++;
         }
+        return impares;
     }
 }
 
 let app = new App();
+console.log("Probando sumarParesFor()");
 console.log(app.sumarParesFor());//Resultado debe ser 110
 
+console.log("Probando contarImparesFor()");
 console.log(app.contarImparesFor(5,20));//Resultado debe ser 8
 console.log(app.contarImparesFor(20,5));//Resultado debe ser 8
 
+console.log("Probando SumarParesWhile()");
 console.log(app.sumarParesWhile());//Resultado debe ser 110
+
+console.log("Probando contarImparesWhile()")
+console.log(app.contarImparesWhile(3,25));//Resultado debe ser 12
+console.log(app.contarImparesWhile(25,3));//Resultado debe ser 12
