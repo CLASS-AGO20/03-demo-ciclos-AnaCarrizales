@@ -39,5 +39,5 @@ export default class App {
 let app = new App();
 console.log(app.sumarParesFor());
 
-console.log(app.contarImparesFor(5,20));
-console.log(app.contarImparesFor(5,20));
+console.log(app.contarImparesFor(5,20));//Resultado debe ser 8
+console.log(app.contarImparesFor(20,5));//Resultado debe ser 8
