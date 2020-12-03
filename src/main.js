@@ -48,6 +48,26 @@ export default class App {
         }
         return suma;
     }
+    contarImparesWhile(inicio, fin)
+    {
+        let impares = 0;
+        let i = inicio;
+        if(inicio > fin)
+        {
+            let temporal;
+            temporal = inicio;
+            inici = fin;
+            fin = temporal;
+        }
+        while (i<=fin)
+        {
+            if(i % 2 != 0)
+            {
+                impares = impares + 1;
+            }
+            i++;
+        }
+    }
 }
 
 let app = new App();
