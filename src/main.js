@@ -50,6 +50,7 @@ export default class App {
     }
     contarImparesWhile(inicio, fin)
     {
+        let impares = 0;
         if(inicio > fin)
         {
             let temporal;
@@ -57,7 +58,6 @@ export default class App {
             inicio = fin;
             fin = temporal;
         }
-        let impares = 0;
         let i = inicio;
         while (i<=fin)
         {
@@ -99,7 +99,7 @@ export default class App {
         {
             if(i % 2 != 0)
             {
-                impares = impares + 1;
+                impares++;
             }
             i++
         }
