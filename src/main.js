@@ -29,7 +29,7 @@ export default class App {
         {
             if(i % 2 != 0)
             {
-                impares++;
+                impares = impares + 1;
             }
         }
         return impares;
@@ -50,7 +50,6 @@ export default class App {
     }
     contarImparesWhile(inicio, fin)
     {
-        let impares = 0;
         if(inicio > fin)
         {
             let temporal;
@@ -58,12 +57,13 @@ export default class App {
             inicio = fin;
             fin = temporal;
         }
+        let impares = 0;
         let i = inicio;
         while (i<=fin)
         {
             if(i % 2 != 0)
             {
-                impares++;
+                impares = impares + 1;
             }
             i++;
         }
@@ -79,7 +79,7 @@ export default class App {
             {
                 suma = suma + i;
             }
-            i++;
+            i ++;
         }
         while(i<=20);
         return suma;
@@ -99,7 +99,7 @@ export default class App {
         {
             if(i % 2 != 0)
             {
-                impares++;
+                impares = impares + 1;
             }
             i++
         }
