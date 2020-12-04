@@ -127,5 +127,5 @@ console.log("Probando sumarParesDo()");
 console.log(app.sumarParesDo()); //Resultado debe ser 110
 
 console.log("Probando contarImparesDo()")
-console.log(app.contarImparesDo(6,24)); //Resultado debe ser 9
-console.log(app.contarImparesDo(24,6)); //Resultado debe ser 9
+console.log(app.contarImparesDo(8,17)); //Resultado debe ser 5
+console.log(app.contarImparesDo(17,8)); //Resultado debe ser 5
