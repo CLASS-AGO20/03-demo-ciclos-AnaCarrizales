@@ -29,7 +29,7 @@ export default class App {
         {
             if(i % 2 != 0)
             {
-                impares = impares + 1;
+                impares++;
             }
         }
         return impares;
