@@ -63,7 +63,7 @@ export default class App {
         {
             if(i % 2 != 0)
             {
-                impares = impares + 1;
+                impares++;
             }
             i++;
         }
@@ -79,7 +79,7 @@ export default class App {
             {
                 suma = suma + i;
             }
-            i ++;
+            i++;
         }
         while(i<=20);
         return suma;
